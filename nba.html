@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noticias NBA - BasketFeed</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background-color: #0f0f0f; color: #fff; line-height: 1.6; }
+    header { background-color: #181818; padding: 30px 20px 15px; text-align: center; border-bottom: 2px solid #fcb900; }
+    header img { height: 50px; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; color: #bbb; }
+    nav { text-align:center; margin-top: 10px; }
+    nav a { color:#fcb900; margin: 0 15px; text-decoration:none; }
+    nav a:hover { text-decoration: underline; }
+    h2 { margin-top: 40px; font-size: 1.6rem; color: #fcb900; border-left: 5px solid #fcb900; padding-left: 10px; }
+    .news-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+    .news-item { background-color: #1d1d1d; padding: 20px; margin: 20px 0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .news-item:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.4); }
+    .news-item h3 { margin: 0 0 10px; color: #fff; font-size: 1.3rem; }
+    .news-item p { color: #ddd; font-size: 1rem; }
+    .news-item a { color: #fcb900; text-decoration: none; }
+    .news-item a:hover { text-decoration: underline; }
+    footer { text-align: center; padding: 30px 20px; background-color: #181818; color: #888; font-size: 0.9rem; border-top: 1px solid #333; }
+    @media (max-width: 600px) {
+      header img { height: 40px; }
+      header p { font-size: 1rem; }
+      .news-item { padding: 16px; }
+      .news-item h3 { font-size: 1.1rem; }
+      .news-item p { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="BasketFeed Logo">
+    <p>Últimas noticias de baloncesto - NBA</p>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="nba.html">NBA</a>
+    <a href="acb.html">ACB</a>
+    <a href="euroliga.html">Euroliga</a>
+  </nav>
+  <div class="news-container">
+    <h2>Noticias de NBA</h2>
+    
+        <div class="news-item">
+            <h3>NBA draft 2025: Final big board for the top 100 prospects</h3>
+            <p>Who made big jumps in the top 10? Where do the Duke, Rutgers players rank? Here's our final Top 100 big board. <a href="https://www.espn.com/nba/story/_/id/41662748/2025-nba-draft-big-board-rankings-top-100-prospects-players" target="_blank">Leer más</a></p>
+        </div>
+        <div class="news-item">
+            <h3>NBA draft: What the final numbers reveal about 30 top prospects</h3>
+            <p>The 2025 NBA draft is next week. Here's what Kevin Pelton's numbers say about 30 of the top prospects. <a href="https://www.espn.com/nba/story/_/id/44888875/nba-draft-2025-projecting-30-best-prospects" target="_blank">Leer más</a></p>
+        </div>
+        <div class="news-item">
+            <h3>Pacers riding high, not celebrating Game 6 rout</h3>
+            <p>The Pacers gave their home crowd plenty to cheer about in Thursday night's blowout win, including a highlight-reel dunk by Pascal Siakam, but they were in no mood to celebrate with Game 7 around the corner. <a href="https://www.espn.com/nba/story/_/id/45547954/pacers-force-winner-take-all-rout-okc-game-6-nba-finals" target="_blank">Leer más</a></p>
+        </div>
+        <div class="news-item">
+            <h3>For OKC, no excuses after 'uncharacteristic' dud</h3>
+            <p>The Thunder turned in a clunker of an NBA Finals performance and know they will have to be a lot better in Game 7. <a href="https://www.espn.com/nba/story/_/id/45548639/okc-flops-uncharacteristic-dud-game-6-nba-finals" target="_blank">Leer más</a></p>
+        </div>
+        <div class="news-item">
+            <h3>Sources: Udoka joins tier of top-paid coaches</h3>
+            <p>Rockets coach Ime Udoka has agreed to a long-term contract extension that makes him one of the highest-paid coaches in the NBA, sources told ESPN. <a href="https://www.espn.com/nba/story/_/id/45538712/sources-rockets-ime-udoka-agree-long-term-extension" target="_blank">Leer más</a></p>
+        </div>
+        <div class="news-item">
+            <h3>Ex-NBA star Divac breaks hip in motorcycle crash</h3>
+            <p>Former NBA center Vlade Divac underwent emergency surgery after breaking a hip in a fall from his motorcycle in Montenegro, doctors said. <a href="https://www.espn.com/nba/story/_/id/45550120/ex-nba-great-vlade-divac-breaks-hip-motorcycle-accident" target="_blank">Leer más</a></p>
+        </div>
+  </div>
+  <footer>
+    &copy; 2025 BasketFeed. Proyecto automatizado por Marc.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg width="220" height="40" viewBox="0 0 220 40" xmlns="http://www.w3.org/2000/svg">
+    <text x="0" y="30" font-family="Arial Black, sans-serif" font-size="28" fill="#fcb900">Basket</text>
+    <text x="115" y="30" font-family="Arial Black, sans-serif" font-size="28" fill="white">Feed</text>
+    <circle cx="200" cy="20" r="8" stroke="#fcb900" stroke-width="2" fill="none"/>
+    <line x1="192" y1="20" x2="208" y2="20" stroke="#fcb900" stroke-width="1.5"/>
+    <line x1="200" y1="12" x2="200" y2="28" stroke="#fcb900" stroke-width="1.5"/>
+</svg>
